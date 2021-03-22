@@ -59,13 +59,15 @@ console.log(addItem('tomato'));//testing isFull function
 
 //6.
 function removeItem(item){
-  if( item = basket.splice(basket.indexOf('chicken'), 1)){//
-  return item;
+  if( removeItem = basket.splice(basket.indexOf('chicken'), 1)){//i used a if else statement to check if the item is splice.
+  return removeItem;// if the item is splice then it will return what has been splice
   }
   return null;
 }
 console.log(removeItem());
 console.log(basket);
- // when i use 0 it doesn't splice apples but when i use 1 then it does. How come?
+
+//I have not been able to make this code work all the way. it splices what i want it to splice but when i try to put an item that doesn't exist it doesn't return null.
+// when i use 0 it doesn't splice apples but when i use 1 then it does. How come?
 // Make sure to test all functions here in the JS file!
 // We want to see how you are testing your code!!!
